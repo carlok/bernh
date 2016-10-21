@@ -1,18 +1,24 @@
 # bernH
 
-Rename .env_example to .env and populate it with your keys get them on [Telegram](https://telegram.me/botfather) and [OpenWeatherMap](https://openweathermap.org/appid), then
-	npm install
-	npm run start
+Rename ```.env_example``` to ```.env``` and populate it with your keys get them on [Telegram](https://telegram.me/botfather) and [OpenWeatherMap](https://openweathermap.org/appid), then
+```
+npm install
+npm run start
+```
 
 Query @ck01Bot on Telegram as
-	?{cityName}
+```
+?{cityName}
+```
 
 For example:
-	?London
-	? LoNDon
-	?  San fRancIsCo
-	?villes du Québec
-	? Val-d'Or
+```
+?London
+? LoNDon
+?  San fRancIsCo
+?villes du Québec
+? Val-d'Or
+```
 
 bernH replies with temperature and sky description (clear, clouds etc...).
 
