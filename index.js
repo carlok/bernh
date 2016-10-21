@@ -53,7 +53,7 @@ class StartController extends TelegramBaseController {
                     $.sendMessage(`${Math.floor(response.data.list[0].main.temp - 273.15)} °C, ${response.data.list[0].weather[0].description}`);
                 })
                 .catch(function (error) {
-                    $.sendMessage('Never heard of it, dude...');
+                    $.sendMessage('Never heard it, dude...');
                 });
         }
     }
