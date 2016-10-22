@@ -68,10 +68,7 @@ class StartController extends TelegramBaseController {
 tg.router
     .when(
         new TextCommand('ping', 'pingCommand '),
-        new PingController()
-    );
-
-tg.router
+        new PingController())
     .when(
         new TextCommand('?', 'startHandler'),
         new StartController()
