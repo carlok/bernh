@@ -6,7 +6,7 @@ npm install
 npm run start
 ```
 
-Query @ck01Bot on Telegram as
+Query your bot on Telegram as
 ```
 ?{cityName}
 ```
